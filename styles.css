@@ -1,0 +1,147 @@
+/* Gunakan CSS untuk mempercantik tampilan */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul, table {
+  list-style: none;
+  padding: 0;
+}
+
+.jadwal {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next {
+  margin-top: 30px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px; /* Lebar tombol */
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slide {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  min-width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9; /* Warna latar belakang sama dengan jadwal piket kebersihan */
+  text-align: center;
+}
+
+.JadwalPiket {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sliderPiket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next {
+  margin-top: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px; /* Lebar tombol */
+}
+
+
+.slidesPiket {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slidePiket {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  min-width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  margin: 5px;
+  object-fit: cover;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery img.active {
+  border-color: #ff0000; /* Ganti warna border untuk foto yang aktif */
+}
+
+/* Atur tata letak dan desain sesuai kebutuhan */
