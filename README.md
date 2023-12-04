@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kelas XII IPS 1</title>
+  
   <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="organisasi.css">
 
